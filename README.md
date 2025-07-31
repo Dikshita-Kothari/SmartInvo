@@ -29,7 +29,7 @@ SmartInvo is a modern full-stack web application that streamlines invoice manage
 ## 🧾 MongoDB Collections
 
 ### Users Collection
-```json
+```
 {
   name: String,
   email: String (unique),
@@ -42,7 +42,7 @@ SmartInvo is a modern full-stack web application that streamlines invoice manage
 
 ### Invoice Collection
 
-```json
+```
 {
   uploadedBy: ObjectId,
   invoiceType: "sales" | "purchase",
@@ -61,7 +61,7 @@ SmartInvo is a modern full-stack web application that streamlines invoice manage
 
 ### File Collection
 
-```json
+```
 {
   uploadedBy: ObjectId,
   fileUrl: String,
